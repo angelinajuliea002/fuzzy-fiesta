@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Check target gift card balance">
+	<meta name="author" content="">
+	<title>Target Gift Card Balance Check</title>
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/font-awesome.min.css" rel="stylesheet" />
+<link href="../css/prettyPhoto.css" rel="stylesheet" />
+<link href="../css/price-range.css" rel="stylesheet" />
+<link href="../css/animate.css" rel="stylesheet" />
+<link href="../css/main93af.css?v=1610553695" rel="stylesheet" />
+<link href="../css/responsive.css" rel="stylesheet" />     
+	<link rel="shortcut icon" href="../favicon.ico" />
+</head><!--/head-->
+
+<body>
+	<header id="header"><!--header-->
+    <div class="header-middle"><!--header-middle-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                        <div class="logo pull-left">
+                                <a href="../index.html" class="lg">
+                                        TARGETGIFT CARD
+                                </a>
+                        </div>
+                </div>
+                <div class="col-sm-8">
+                        <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                </button>
+                        </div>
+                        <div class="mainmenu pull-left fr">
+                                <ul class="nav navbar-nav collapse navbar-collapse">
+                                    <li><a href="../index.html">Home</a></li>
+                                    <li><a href="../checktargetgiftcardbalance/index.html">Target</a></li>  
+                                    <li><a href="../blog/index.html">Blog</a></li>  
+                                    <li><a href="../contact-us/index.html">Contact</a></li>
+                                </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div><!--/header-middle-->
+
+</header><!--/header-->
+	<section id="slider" class="price-range"><!--slider-->
+		<div class="container">
+		    <div class="row">
+			<div class="col-sm-12">
+			    <div id="slider-carousel" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+				    <div class="item active ">
+					<div class="col-sm-6">
+					    <img src="../images/home/404.png" class="girl img-responsive" alt="404" title="404"/>
+					</div>
+					<div class="col-sm-6">
+					    <div id="demo" class="col-md-12">
+						<div class="service-2">
+						    <h1><span>OOPS!!! <br /><br />It seems the resource you are looking for could not be located. <br /><br/>Please come back after some time.</span></h1>
+						</div>
+					    </div>
+					</div>  
+				    </div>
+				</div>
+			    </div>
+			</div>
+		    </div>
+		</div>
+	    </section><!--/slider-->
+
+
+	
+	<footer id="footer" class="price-range"><!--Footer-->
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="single-widget">
+                        <ul class="nav nav-pills">
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="../checktargetgiftcardbalance/index.html">Target</a></li>  
+                            <li><a href="../blog/index.html">Blog</a></li>  
+                            <li><a href="../contact-us/index.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row disclaimer ">
+                <p>
+                    Copyright &copy; 2020 etargetmygift.com. All rights reserved. Please see our Terms and Conditions for details.<br />
+                </p>
+            </div>
+        </div>
+    </div>
+</footer><!--/Footer-->	<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.scrollUp.min.js"></script>
+<script src="../js/price-range.js"></script>
+<script src="../js/jquery.prettyPhoto.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/_bb_general_v3.js"></script>
+<script src="../js/ajax.js"></script>
+<script src="../js/validation93af.js?v=1610553695"></script>
+<script type="text/javascript">
+    //javascript: _selectCardType(1);
+// Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+</script>
+    
+</body>
+
+</html>
