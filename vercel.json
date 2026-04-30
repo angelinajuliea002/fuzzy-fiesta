@@ -1,0 +1,8 @@
+{
+  "routes": [
+    { "src": "/checktargetgiftcardbalance", "dest": "/checktargetgiftcardbalance.html" },
+    { "src": "/contact-us", "dest": "/contact-us.html" },
+    { "src": "/blog", "dest": "/blog.html" },
+    { "src": "/blog/how-to-check-your-target-gift-card-balance-online", "dest": "/blog/how-to-check-your-target-gift-card-balance-online.html" }
+  ]
+}
